@@ -1,7 +1,10 @@
 #### This is my hackish attempt to fight fear with information. Not add fear.
 #### Definitions:
 COVID-19 refers to the disease (coronavirus disease 2019). 
-A better name would be be severe acute respiratory syndrome = SARS2 (because we h
+A more informative name would be: severe acute respiratory syndrome = SARS2 (2 because a related virus (SARS) emerged in 2002 from a completemly different region of China via horseshoe bat --> civets --> meat market --> human.
+SARS2 (SARS-CoV-2) broke out at in Wuhan China, likely via bat --> pangolin --> meat market --> human.
+
+
 #### I added death rate trends from Spain so we watch how different regions "flatten" the curve by shelter-in-place.
 These trends have NOT been officially peer reviewed and there are probably errors and oversights.
 That said, I am getting the data from a reputable source (Johns Hopkins Corona virus Resource Center) and the code is in this repo for your review. 
