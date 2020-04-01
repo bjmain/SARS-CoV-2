@@ -2,7 +2,7 @@
 #### Definitions:
 COVID-19 refers to the disease (coronavirus disease 2019). 
 
-A more informative name would be: severe acute respiratory syndrome = SARS2 (2 because the related SARS virus emerged in 2002 from a completemly different region of China via horseshoe bat --> civets --> meat market --> human.
+A more informative name would be: severe acute respiratory syndrome = SARS2 (2 because the related SARS virus emerged in 2002 from a completely different region of China via horseshoe bat --> civets --> meat market --> human.
 
 SARS2 (SARS-CoV-2) broke out at in Wuhan China, likely via bat --> pangolin --> meat market --> human.
 
