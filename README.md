@@ -19,8 +19,7 @@ That said, I am getting the data from a reputable source (Johns Hopkins Corona v
 Thus, the trends in CA counties are likely going to less extreme. By next week (~April 7), we should be able to make better predictions about how this is progressing in each region.
 
 ### Why am I plotting death rate in Suffolk county?  
-- NY state has relatively high incidence of SARS2 and while the borough/county of NY  has higher numbers, I don't really know what a borough is... 
-
+- NY state has relatively high incidence of SARS2 and NY county (or borough) has the highest numbers, but Suffolk county in Long Island is nearby and a more typical county.
 
 ### Why am I only plotting deaths and not cases?
 #### - I am guessing that the death numbers are less impacted by regional differences in testing rates and deaths kinda don't go unreported. 
