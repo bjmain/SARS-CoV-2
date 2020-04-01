@@ -1,3 +1,5 @@
+## See the sars2.pdf 
+
 #### This is my hackish attempt to fight fear with information. Not add fear.
 #### Definitions:
 COVID-19 refers to the disease (coronavirus disease 2019). 
