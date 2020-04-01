@@ -8,7 +8,7 @@ SARS2 (SARS-CoV-2) broke out at in Wuhan China, likely via bat --> pangolin --> 
 
 
 ##### I added death rate trends from Spain so we can watch how different counties "flatten" the curve by measures like shelter-in-place.
-####These trends have NOT been officially peer reviewed and there are probably errors and oversights.
+#### These trends have NOT been officially peer reviewed and there are probably errors and oversights.
 That said, I am getting the data from a reputable source (Johns Hopkins Corona virus Resource Center) and the code is in this repo for your review. 
 
 #### From the figure you can see that all US counties are well below last years flu death rate. So, what's the big deal?
