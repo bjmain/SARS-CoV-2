@@ -14,7 +14,13 @@ SARS2 (SARS-CoV-2) broke out at in Wuhan China, likely via bat --> pangolin --> 
 That said, I am getting the data from a reputable source (Johns Hopkins Corona virus Resource Center) and the code is in this repo for your review. 
 
 ### From the figure you can see that all US counties are well below last years flu death rate. So, what's the big deal?
-#### - I added a projection of what happened in Spain (and continues to happen) and you can see that within a few weeks, we could be well above typical flu death rates. ** Based on Long Island (Suffolk county), which is among the hardest hit areas in the US, it is already clear that we are going to be better off than Spain. In CA, where shelter-in-place measures were imposed early, we MAY even be able to stay close to typical flu numbers. By next week (~April 7), we should be able to make better predictions about how this is progressing in each region.
+ - I added a projection of what happened in Spain (and continues to happen) and you can see that within a few weeks, we could be well above typical flu death rates. 
+** Based on Long Island (Suffolk county), which is among the hardest hit areas in the US, it is already clear that California counties are going to be better off than Spain. I'm guessing this is because the shelter-in-place measures were imposed relatively early in the outbreak.
+Thus, the trends in CA counties are likely going to less extreme. By next week (~April 7), we should be able to make better predictions about how this is progressing in each region.
+
+### Why am I plotting death rate in Suffolk county?  
+- NY state has relatively high incidence of SARS2 and while the borough/county of NY  has higher numbers, I don't really know what a borough is... 
+
 
 ### Why am I only plotting deaths and not cases?
 #### - I am guessing that the death numbers are less impacted by regional differences in testing rates and deaths kinda don't go unreported. 
