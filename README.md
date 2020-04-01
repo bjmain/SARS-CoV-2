@@ -7,7 +7,7 @@ A more informative name would be: severe acute respiratory syndrome = SARS2 (2 b
 SARS2 (SARS-CoV-2) broke out at in Wuhan China, likely via bat --> pangolin --> meat market --> human.
 
 
-#### I added death rate trends from Spain so we watch how different regions "flatten" the curve by shelter-in-place.
+#### I added death rate trends from Spain so we can watch how different counties "flatten" the curve by measures like shelter-in-place.
 These trends have NOT been officially peer reviewed and there are probably errors and oversights.
 That said, I am getting the data from a reputable source (Johns Hopkins Corona virus Resource Center) and the code is in this repo for your review. 
 
