@@ -2,6 +2,7 @@
 library(RCurl)
 library(ggplot2)
 library(reshape)
+library(repr)
 
 #URL with data
 url <- getURL('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv')
@@ -23,14 +24,20 @@ datamagg$cr <- as.factor(datamagg$cr)
 datamagg$cr<-droplevels(datamagg$cr)
 
 #Derive total number of cases for ordering plots
-sumcases <- aggregate(value~cr, datamagg[which(as.Date(datamagg$variable)==format(Sys.time(), '%y-%m-%d')),],'sum')
+sumcases <- aggregate(value~cr, datamagg[which(as.Date(datamagg$variable)==as.Date(format(Sys.time(), '%y-%m-%d'))-1),],'sum')
 datamagg$cr<-factor(datamagg$cr,levels=levels(datamagg$cr)[order(sumcases$value,decreasing=T)],ordered=T)
 
+#Select 10 countries with the highest number of deaths 
+datamagg<-datamagg[which(datamagg$cr%in%levels(datamagg$cr)[1:10]),]
+
 #Trend overview
+X11(width=20,height=11)
+#options(repr.plot.width = 20, repr.plot.height = 0.75, repr.plot.res = 100)
 ggplot(datamagg, aes(x=variable, y=value, col=cr)) + 
-geom_line(show.legend=F) +
+geom_line(show.legend=TRUE,size=2, linetype=1) +
 scale_x_date(date_breaks='4 week',date_labels='%d-%m') +
-facet_wrap(~cr,scale='free_y') + 
 theme_bw() + 
-labs(x=NULL, y=NULL) +
-theme(axis.text.y=element_text(size=5),axis.text.x=element_text(size=5))
+labs(x="Date", y="Number of deaths") +
+ggtitle("Number of deaths - Raw progression per country (10 most affected)") +
+guides(col=guide_legend("Country",nrow=1)) +
+theme(axis.text.y=element_text(size=20),axis.text.x=element_text(size=20),legend.position="bottom", legend.direction="horizontal",legend.text=element_text(size=20))
