@@ -17,10 +17,10 @@ That said, I am getting the data from a reputable source (Johns Hopkins Corona v
 Thus, the trends in CA counties are likely going to less extreme. By next week (~April 7), we should be able to make better predictions about how this is progressing in each region.
 
 ### Why am I plotting death rate in Suffolk county?  
-- NY state has relatively high incidence of SARS2 and NY county (or borough) has the highest numbers, but Suffolk county in Long Island is nearby and a more typical county.
+- NY state has relatively high incidence of COVID-19 and NY county has the highest numbers, however the complex county structure of NYC, which includes multiple boroughs that may report differently, worries me. I am also concerned about getting the correct population size in this case. As a result, I am arbitrarily focusing on Suffolk county of Long Island, which is nearby and a more typical county.
 
 ### Why am I only plotting deaths and not cases?
-#### - I am guessing that the death numbers are less impacted by regional differences in testing rates and deaths kinda don't go unreported. 
+#### - I believe that the death numbers are less impacted by regional differences in testing rates and due to obvious symptoms at later stages of the disease, the cause of death may be more accuratelt attributed to COVID-19.
 
 ### Why did I use Spain for a reference?
 #### - I think Spain is the worst case scenario. I could have used italy, but the global death numbers are only by country, and Northern and Southern Italy's death rates are very different. 
